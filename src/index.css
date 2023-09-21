@@ -9,6 +9,42 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+ h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

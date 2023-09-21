@@ -1,0 +1,5 @@
+
+state = {
+  contacts: [],
+  name: ''
+}
