@@ -1,6 +1,4 @@
 import React from "react";
 import Input from "./Input/Input";
-state = {
-  contacts: [],
-  name: ''
-}
+import ContactList from "./ContactList/ContactList";
+

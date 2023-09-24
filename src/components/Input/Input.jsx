@@ -13,14 +13,28 @@ const Input = ({ onsubmit }) => {
     name: '',
     number: '',
   }
-  return( {
-  <Formik initialValues={initialValues} validationSchema={schema} onSubmit={onSubmit}>
-    <FormWrapper>
-      <FormInput type='text' name='name' ></FormInput>
-
+  return (
+    <Formik initialValues={initialValues} validationSchema={schema} onSubmit={onSubmit}>
+      <FormWrapper>
+        <FormInput
+          type='text'
+          name='name'
+          placeholder='name'
+          title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan'" />
+        <Error name='name' component='div' />
+        <FormInput
+          type='tel'
+          name='number'
+          placeholder='number'
+          title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+        />
+        <Error name='number' component='div' />
+        <Button type='submit'>Add contac</Button>
       </FormWrapper>
     </Formik>
-  })
+  );
 
-}
+};
+
+export default Input;
 
