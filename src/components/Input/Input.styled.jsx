@@ -34,7 +34,7 @@ export const Button = styled.button`
 
   font-size:20px;
 
-  &:hover {
+  :hover {
 
     transform: scale(1.01);
 
