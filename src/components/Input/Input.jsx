@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Formik } from 'formik';
 import * as yup from 'yup';
 import { FormWrapper, FormInput, Button, Error } from './Input.styled';
