@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Formik, Form } from 'formik';
+import { Formik } from 'formik';
 import * as yup from 'yup';
 import { FormWrapper, FormInput, Button, Error } from './Input.styled';
 
