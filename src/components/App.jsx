@@ -45,7 +45,7 @@ class App extends Component {
 
     return (
       <Container>
-        <Title>Phonebook</Title>
+        <Title>Phonebook✍️</Title>
         <ContactForm addContact={this.addContact} contacts={contacts} />
 
         <Heading2>Contacts</Heading2>
