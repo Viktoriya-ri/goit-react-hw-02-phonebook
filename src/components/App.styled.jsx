@@ -1,15 +1,15 @@
-import styled from '@emotion/styled';
-import 'normalize.css';
+import styled from 'styled-components';
 
-export const MainContainer = styled.div`
+export const Container = styled.div`
   width: 600px;
   padding: 15px;
-  margin: 0 auto;
+  margin: 60px auto;
   display: grid;
   place-items: center;
 `;
 
-export const MainTitle = styled.h1`
+
+export const Title = styled.h1`
 position:relative;
   font-size: 44px;
   font-weight: 700;
@@ -39,7 +39,7 @@ position:relative;
   }
 `;
 
-export const SecondaryTitle = styled.h1`
+export const Heading2 = styled.h2`
   font-size: 32px;
   font-weight: 600;
   text-align: center;

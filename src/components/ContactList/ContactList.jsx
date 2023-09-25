@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ContactItems, ContactName, ContactNumber, Button } from './Contacts.styled';
+import { ContactItems, ContactName, ContactNumber, Button } from './ContactList.styled'
 
 function ContactList({ contacts, deleteContact }) {
   return (
